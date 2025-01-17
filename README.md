@@ -1,7 +1,7 @@
 # Logbook
 
 
-| Pvm  | Tunnit | Aihe |  output |
+| Pvm  | Tunnit | Aihe |  Tulos |
 | :---         |     :---:      |     :---:      |     :---:      |
 | 17.01.2025 | 2 | Kurssin aloitus  | Kurssin perus jutut selväksi  |
 | 17.01.2025 | x | x  | x |
