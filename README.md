@@ -1,9 +1,9 @@
 # Logbook
 
 
-| Date  | Used hours | Subject(s) |  output |
+| Pvm  | Tunnit | Aihe |  output |
 | :---         |     :---:      |     :---:      |     :---:      |
-| 17.01.2025 | 2 | Kick-off lecture  | Lecture listening  |
+| 17.01.2025 | 2 | Kurssin aloitus  | Kurssin perus jutut selväksi  |
 | 17.01.2025 | x | x  | x |
 | 17.01.2025 | x | x  | x |
 | 17.01.2025 | x | x  | x |
