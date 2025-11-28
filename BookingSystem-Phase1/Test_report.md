@@ -4,14 +4,14 @@
 - Name:  Matias Viinikainen
 
 **Purpose:**  
-- To identify security vulnerabilities in the locally hosted booking system, focusing on configuration issues, missing security headers, and potential input-handling flaws.
+- To identify security vulnerabilities in the locally hosted booking system.
 
 **Scope:**  
-Tested components: Web application front-end, authentication pages, booking pages, server responses, HTTP headers.
+Tested components: Web application, authentication pages, booking pages.
 
-Exclusions: Backend source code, internal infrastructure.
+Exclusions: internal infrastructure.
 
-Test approach: Black-box (using OWASP ZAP with no internal knowledge).
+Test approach: Black-box
 
 **Test environment & dates:**  
 - Start:  28.11.2025
@@ -26,17 +26,17 @@ Test approach: Black-box (using OWASP ZAP with no internal knowledge).
 
 # 2️⃣ Executive Summary
 
-The security scan identified several medium-to-low severity issues, mostly related to missing security headers and input-handling weaknesses. 
-No critical vulnerabilities were detected, but the findings show multiple hardening improvements are needed.
+The security scan identified several high-to-in security issues, mostly related to missing security headers and input-handling weaknesses. 
+The findings show multiple hardening improvements are needed.
 
 **Overall risk level:** Medium
 
 **Top 5 immediate actions:**  
-1.  Implement Anti-CSRF protection on all state-changing requests.
-2.  Add a strict Content Security Policy (CSP) header.
-3.  Implement anti-clickjacking protection using X-Frame-Options or frame-ancestors.
-4.  Add X-Content-Type-Options: nosniff header to prevent MIME-type sniffing.
-5.  Review and sanitize all user-supplied input to ensure format string safety.
+1.  Path Traversal: Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications.
+2.  SQL Injection: Do not trust client side input, even if there is client side validation in place. In general, type check all data on the server side.
+3.  Absence of Anti-CSRF Tokens: Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.
+4.  CSP header not set: Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.
+5.  Format String error: Rewrite the background program using proper deletion of bad character strings.
 
 ---
 
