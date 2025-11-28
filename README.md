@@ -9,9 +9,9 @@
 | 05.11.2025 | 2 | Netacad  | Moduli 4 |
 | 07.11.2025 | 2 | Netacad  | Moduli 5 |
 | 09.11.2025 | 2 | Netacad  | Netacadin testit läpi |
-| 14.01.2025 | 2 | PortSwigger | PortSwigger harjoittelua |
-| 16.01.2025 | 2 | PortSwigger | PortSwigger harjoittelua |
-| 18.01.2025 | 3 | PortSwigger | PortSwigger harjoittelua + tehtävän palautus |
-| 17.01.2025 | x | x  | x |
-| 17.01.2025 | x | x  | x |
-| 17.01.2025 | x | x  | x |
+| 14.11.2025 | 2 | PortSwigger | PortSwigger harjoittelua |
+| 16.11.2025 | 2 | PortSwigger | PortSwigger harjoittelua |
+| 18.11.2025 | 3 | PortSwigger | PortSwigger harjoittelua + tehtävän palautus |
+| 17.11.2025 | x | x  | x |
+| 17.11.2025 | x | x  | x |
+| 17.11.2025 | x | x  | x |
