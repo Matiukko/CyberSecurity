@@ -15,8 +15,8 @@
 | 20.11.2025 | 2 | Booking system phase 1  | Penetration testing |
 | 24.11.2025 | 3 | Booking system phase 1  | Docker käyttöä |
 | 28.11.2025 | 4 | Booking system part 1  | Reportin tekoa + zap testailua |
-| 17.11.2025 | x | x  | x |
-| 17.11.2025 | x | x  | x |
+| 1.12.2025 | 2 | Booking system p1 p2  | Luento videon katselu + round2 reportin teko |
+| 17.11.2025 | 3 | Booking system p1 p2  | Discussion postin teko + tehtävän palautus |
 | 17.11.2025 | x | x  | x |
 | 17.11.2025 | x | x  | x |
 | 17.11.2025 | x | x  | x |
